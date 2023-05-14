@@ -5,8 +5,8 @@ import chalk from 'chalk';
 
 class TsvReader {
   private commands: string[] = [];
-  // private attributes: string[] = [];
   private input: string[];
+  // private attributes: string[] = [];
 
   constructor(input: string[]) {
     this.input = input;
@@ -35,6 +35,7 @@ class TsvReader {
       const lines = data.split('\n');
       const headers = lines[0].split('\t');
       const rows = lines.slice(1);
+
       const parsedRows = rows.map((row: string) => {
         const values = row.split('\t');
         return headers.reduce((obj: any, header: string, index: number) => {
