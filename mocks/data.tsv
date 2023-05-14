@@ -1,0 +1,3 @@
+name	description	publishedAt	genres	releaseYear	rating	previewVideo	video	actors	director	duration	commentsCount	user	poster	backgroundColor
+фильм1	два	2023-05-01	comedy	2023	9	./img.jpg	./video.mp4	Питт, Нолан, Нортон	Миядзаки	120 	1000 	id0001 	./poster.jpg 	green
+фильм2	два	2023-05-02	crime	2023	6	./img.jpg	./video.mp4	Питт, Нолан, Нортон	Сатоси Kon	200 	200	id0002 	./poster.jpg	black
